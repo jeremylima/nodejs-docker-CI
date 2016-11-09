@@ -37,4 +37,4 @@ COPY . /app
 
 EXPOSE 8080
 
-CMD cd /src && node ./app.js
+CMD cd /src/test/
