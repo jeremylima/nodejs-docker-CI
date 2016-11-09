@@ -36,3 +36,5 @@ RUN npm install -g frisby jasmine-node
 COPY . /app
 
 EXPOSE 8080
+
+CMD cd /src && node ./app.js
