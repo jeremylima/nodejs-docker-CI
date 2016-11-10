@@ -11,4 +11,4 @@ deployment:
 
 test:
   override:    
-    - mocha
+    - jasmine-node test/GetTest_spec.js --junitreport

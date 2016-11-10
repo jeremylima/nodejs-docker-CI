@@ -31,5 +31,10 @@ RUN mkdir /app
 WORKDIR /app
 COPY package.json /app/
 RUN npm install
+#RUN ln -s /usr/bin/nodejs /usr/bin/node
+RUN npm install -g frisby jasmine-node
 COPY . /app
+
 EXPOSE 8080
+
+CMD cd /src/test/
