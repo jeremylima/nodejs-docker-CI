@@ -4,7 +4,7 @@
 
 return;
 
-console.log("Test starting");
+console.log("EXPRESS AUTHORIZATIONS WORKFLOW - Non generic products");
 
 var postData = require('../../PostData/ExpressAuthorizations/CreateAuthorizationWithNonGenericProducts');
 

@@ -1,7 +1,7 @@
 /**
  * Created by Jeremy on 10/18/2016.
  */
-console.log("Test starting");
+console.log("EXPRESS AUTHORIZATIONS WORKFLOW - Generic products");
 
 var postData = require('../../PostData/ExpressAuthorizations/CreateAuthorizationWithGenericProducts');
 
