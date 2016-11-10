@@ -11,4 +11,4 @@ deployment:
 
 test:
   override:    
-    - jasmine-node test/GetTest_spec.js --junitreport
+    - jasmine-node spec/ --junitreport
